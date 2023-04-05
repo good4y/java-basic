@@ -1,0 +1,32 @@
+
+s
+java:S1192"XDefine a constant instead of duplicating this literal "You got the high score!" 3 times.(€¨¼îÿÿÿÿÿ
+D
+java:S1121%".Extract the assignment out of this expression.(Ñø…ó
+W
+java:S4973<"<Strings and Boxed types should be compared using "equals()".(®Úêûÿÿÿÿ
+Y
+java:S4973="<Strings and Boxed types should be compared using "equals()".(à±ş8 ÌÆëó0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ–­
+R
+java:S25892"7Remove this expression which always evaluates to "true"(õ¦éøûÿÿÿÿ
+M
+java:S2589"7Remove this expression which always evaluates to "true"(ÿÒ˜û
+M
+java:S2589%"7Remove this expression which always evaluates to "true"(Ñø…ó
+_
+java:S2583,"DChange this condition so that it does not always evaluate to "false"(Œ‡Ëÿÿÿÿÿ
+Y
+java:S25831"CChange this condition so that it does not always evaluate to "true"(¢Äë„
+[
+java:S1854=">Remove this useless assignment to local variable "isDomestic".(à±ş8ÖÌÆëó0
+Y
+java:S1854<">Remove this useless assignment to local variable "isDomestic".(®Úêûÿÿÿÿ
+=
+java:S1125"'Remove the unnecessary boolean literal.(ÿÒ˜û
+>
+java:S11251"(Remove the unnecessary boolean literals.(¢Äë„
+C
+java:S1125<"(Remove the unnecessary boolean literals.(®Úêûÿÿÿÿ
+J
+java:S1481<"/Remove this unused "isDomestic" local variable.(®Úêûÿÿÿÿ

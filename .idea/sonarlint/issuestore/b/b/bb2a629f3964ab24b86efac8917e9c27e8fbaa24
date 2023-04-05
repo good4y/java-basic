@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÎ«·ÿÿÿÿÿ
+\
+java:S1854%"?Remove this useless assignment to local variable "myByteValue".(¬‹è8•à¥‘ó0
+]
+java:S1854"BRemove this useless assignment to local variable "myNewByteValue".(µ¹÷Ôÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(œ­ßñ

@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÎ«·ÿÿÿÿÿ
+T
+java:S1481""7Remove this unused "myTrueBooleanValue" local variable.(ØÒûõ8šÍ×èó0
+U
+java:S1481#"8Remove this unused "myFalseBooleanValue" local variable.(Ñ‚•Á8ˆí×èó0
