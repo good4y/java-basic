@@ -59,7 +59,7 @@ public class TheSwitchStatement {
 
     // 연산이 필요한 경우 yield 키워드를 사용한다.
     public static String getQuarterEnhanced(String month){
-        return switch (month){
+        String a = switch (month){
             case "January", "February", "March" -> "1st Quarter";
             case "April", "May", "June" -> "2nd Quarter";
             case "July", "August", "September" -> "3rd Quarter";
@@ -69,5 +69,7 @@ public class TheSwitchStatement {
                 yield "Invalid month";
             }
         };
+
+        return a;
     }
 }
