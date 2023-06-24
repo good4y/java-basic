@@ -4,7 +4,8 @@ package chap6.encapsulation;
  * TODO 캡슐화를 해야하는 이유
  *    - 클래스 내부의 필드 보호
  *    - 역할 분리
- * */
+ *
+ */
 
 public class Main {
     public static void main(String[] args) {
