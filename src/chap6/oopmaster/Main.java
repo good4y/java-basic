@@ -7,5 +7,6 @@ public class Main {
         coke.printItem();
 
         Side cheeseStick = new Side("side", "cheese stick", 1500);
+
     }
 }
