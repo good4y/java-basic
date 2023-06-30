@@ -41,7 +41,7 @@ public class UsingArrays {
         System.out.println(Arrays.toString(largerArray));
 
         // Arrays.binarySearch는 배열에서 특정 값을 찾고 인덱스를 반환한다.
-        // 이진 탐색을 사용하기 때문에 배열이 정렬되어 있어야 한다.
+        // ** 이진 탐색을 사용하기 때문에 배열이 정렬되어 있어야 한다.
         String[] sArray = {"Able", "Baker", "Charlie", "Dog", "Easy"};
         Arrays.sort(sArray);
         System.out.println(Arrays.toString(sArray));
