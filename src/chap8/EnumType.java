@@ -35,6 +35,7 @@ public class EnumType {
         }
     }
 
+
     public static DayOfTheWeek getRandomDay(){
         int random = new Random().nextInt(7);
 
