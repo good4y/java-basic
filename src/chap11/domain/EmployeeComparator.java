@@ -1,4 +1,4 @@
-package chap11.nestedclasses.domain;
+package chap11.domain;
 
 import java.util.Comparator;
 

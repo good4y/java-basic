@@ -1,7 +1,7 @@
-package chap11.nestedclasses;
+package chap11;
 
-import chap11.nestedclasses.domain.Employee;
-import chap11.nestedclasses.domain.StoreEmployee;
+import chap11.domain.Employee;
+import chap11.domain.StoreEmployee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,11 +10,11 @@ public class Main {
     public static void main(String[] args) {
 
         List<Employee> employees = new ArrayList<>(List.of(
-            new Employee(10001, "Ralph", 2015),
-            new Employee(10005, "Carole", 2021),
-            new Employee(10022, "Jane", 2013),
-            new Employee(13151, "Laura", 2020),
-            new Employee(10050, "Jim", 2018)));
+                new Employee(10001, "Ralph", 2015),
+                new Employee(10005, "Carole", 2021),
+                new Employee(10022, "Jane", 2013),
+                new Employee(13151, "Laura", 2020),
+                new Employee(10050, "Jim", 2018)));
 
 //        var comparator = new EmployeeComparator<>();
 //        employees.sort(comparator);
@@ -28,11 +28,11 @@ public class Main {
         System.out.println("Store Members");
 
         List<StoreEmployee> storeEmployees = new ArrayList<>(List.of(
-           new StoreEmployee(10015, "Meg", 2019, "Target"),
-           new StoreEmployee(10515, "Joe", 2021, "Walmart"),
-           new StoreEmployee(10105, "Tom", 2020, "Macys"),
-           new StoreEmployee(10215, "Marty", 2018, "Walmart"),
-           new StoreEmployee(10322, "Bud", 2016, "Target")
+                new StoreEmployee(10015, "Meg", 2019, "Target"),
+                new StoreEmployee(10515, "Joe", 2021, "Walmart"),
+                new StoreEmployee(10105, "Tom", 2020, "Macys"),
+                new StoreEmployee(10215, "Marty", 2018, "Walmart"),
+                new StoreEmployee(10322, "Bud", 2016, "Target")
         ));
 
         // 내부 클래스를 초기화하기 위해 외부 클래스의 인스턴스가 필요하다.
@@ -49,10 +49,10 @@ public class Main {
         addPigLatinName(storeEmployees);
     }
 
-    public static void addPigLatinName(List<? extends StoreEmployee> list){
+    public static void addPigLatinName(List<? extends StoreEmployee> list) {
 
         String lastName = "Piggy";
-        class DecoratedEmployee extends StoreEmployee implements Comparable<DecoratedEmployee>{
+        class DecoratedEmployee extends StoreEmployee implements Comparable<DecoratedEmployee> {
 
             private String pigLatinName;
             private Employee originalInstance;
@@ -75,7 +75,7 @@ public class Main {
 
         List<DecoratedEmployee> newList = new ArrayList<>(list.size());
 
-        for (Employee  employee : list) {
+        for (Employee employee : list) {
             String name = employee.getName();
             String pigLatin = name.substring(1) + name.charAt(0) + "ay";
             newList.add(new DecoratedEmployee(pigLatin, employee));

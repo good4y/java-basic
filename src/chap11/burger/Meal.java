@@ -1,4 +1,4 @@
-package chap11.nestedclasses.burger;
+package chap11.burger;
 
 
 import java.util.ArrayList;
